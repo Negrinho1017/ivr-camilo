@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.useVOX</param-name>
+        <param-value>true</param-value>
+        <description>Indicates if ICC should communicate to VOX {true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>PIM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953145TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953145EndpointUrl</param-name>
+        <param-value>http://localhost:8080/persona?1017224720</param-value>
+        <description>Web Service end point for [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953145Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953145Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953146Username</param-name>
+        <param-value/>
+        <description>Username for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953146Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953146Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519953146Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233EndpointUrl</param-name>
+        <param-value>http://</param-value>
+        <description>Web Service end point for [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Username</param-name>
+        <param-value/>
+        <description>Username for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <context-param>
+        <param-name>servicioConsultaCedulaREST_1560519954233Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [servicioConsultaCedulaREST]</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_4">
+        <servlet-name>Desconexion</servlet-name>
+        <servlet-class>flow.Desconexion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_16">
+        <servlet-name>PrimerMenu</servlet-name>
+        <servlet-class>flow.PrimerMenu</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_37">
+        <servlet-name>SegundoMenu</servlet-name>
+        <servlet-class>flow.SegundoMenu</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_67">
+        <servlet-name>Salida</servlet-name>
+        <servlet-class>flow.Salida</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_79">
+        <servlet-name>dtaContadorRepeticionesMenu1</servlet-name>
+        <servlet-class>flow.dtaContadorRepeticionesMenu1</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_112">
+        <servlet-name>InformacionNegocio</servlet-name>
+        <servlet-class>flow.InformacionNegocio</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_139">
+        <servlet-name>dtaContadorRepeticionesMenu2</servlet-name>
+        <servlet-class>flow.dtaContadorRepeticionesMenu2</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_173">
+        <servlet-name>AsesorPrincipal</servlet-name>
+        <servlet-class>flow.AsesorPrincipal</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_180">
+        <servlet-name>PrimerAsesor</servlet-name>
+        <servlet-class>flow.PrimerAsesor</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_184">
+        <servlet-name>SegundoAsesor</servlet-name>
+        <servlet-class>flow.SegundoAsesor</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_196">
+        <servlet-name>Adios</servlet-name>
+        <servlet-class>flow.Adios</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4">
+        <servlet-name>Desconexion</servlet-name>
+        <url-pattern>/Desconexion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16">
+        <servlet-name>PrimerMenu</servlet-name>
+        <url-pattern>/PrimerMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_37">
+        <servlet-name>SegundoMenu</servlet-name>
+        <url-pattern>/SegundoMenu</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_67">
+        <servlet-name>Salida</servlet-name>
+        <url-pattern>/Salida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_79">
+        <servlet-name>dtaContadorRepeticionesMenu1</servlet-name>
+        <url-pattern>/dtaContadorRepeticionesMenu1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_112">
+        <servlet-name>InformacionNegocio</servlet-name>
+        <url-pattern>/InformacionNegocio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_139">
+        <servlet-name>dtaContadorRepeticionesMenu2</servlet-name>
+        <url-pattern>/dtaContadorRepeticionesMenu2</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_173">
+        <servlet-name>AsesorPrincipal</servlet-name>
+        <url-pattern>/AsesorPrincipal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_180">
+        <servlet-name>PrimerAsesor</servlet-name>
+        <url-pattern>/PrimerAsesor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_184">
+        <servlet-name>SegundoAsesor</servlet-name>
+        <url-pattern>/SegundoAsesor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_196">
+        <servlet-name>Adios</servlet-name>
+        <url-pattern>/Adios</url-pattern>
+    </servlet-mapping>
+</web-app>

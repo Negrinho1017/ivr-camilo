@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RestWebServiceOperation version="1.0">
+    <Name>servicioConsultaCedulaREST</Name>
+    <ServerUrl>http://localhost:8080/persona?1017224720</ServerUrl>
+    <HttpMethod>GET</HttpMethod>
+    <UseQuery>true</UseQuery>
+    <OutputFormat>Server Default</OutputFormat>
+    <UseJavaObject>true</UseJavaObject>
+    <UseBody>false</UseBody>
+    <Operation>
+        <Name>servicioConsultaCedulaREST_OP</Name>
+        <Inparams/>
+        <Outprarms/>
+        <Headers/>
+    </Operation>
+    <WebConfigParameterNames>
+        <TimeoutSeconds>servicioConsultaCedulaREST_1560519953145TimeoutSeconds</TimeoutSeconds>
+        <EndpointUrl>servicioConsultaCedulaREST_1560519953145EndpointUrl</EndpointUrl>
+        <Authentication>servicioConsultaCedulaREST_1560519953145Authentication</Authentication>
+        <Password>servicioConsultaCedulaREST_1560519953145Password</Password>
+        <Username>servicioConsultaCedulaREST_1560519953146Username</Username>
+        <Preemptive>servicioConsultaCedulaREST_1560519953146Preemptive</Preemptive>
+        <Security>servicioConsultaCedulaREST_1560519953146Security</Security>
+        <Port>servicioConsultaCedulaREST_1560519953146Port</Port>
+    </WebConfigParameterNames>
+    <MessageBody/>
+</RestWebServiceOperation>

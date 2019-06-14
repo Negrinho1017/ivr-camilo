@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="Frases" version="1.0">
+    <phrase version="1.0">
+        <displayname>Bienvenida</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Bienvenida.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>InformacionNegocio</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>InformacionNegocio.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Bienvenida2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Bienvenida2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Adios</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Adios.wav</audiofile>
+    </phrase>
+</phraseset>
